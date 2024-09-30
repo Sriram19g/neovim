@@ -1,4 +1,4 @@
-#Neovim Configuration
+Neovim Configuration
 
 This repository contains my Neovim configuration, designed for a modern, efficient, and highly customizable development environment. It includes various plugins, LSP configurations, and a custom setup for enhanced coding experience across multiple languages.
 Features
@@ -18,7 +18,7 @@ Installation
 
     bash
 
-git clone https://github.com/Sriram19g/neovim ~/.config/nvim
+git clone https://github.com/your-username/your-repo-name ~/.config/nvim
 
 Ensure you have the following dependencies installed:
 
@@ -70,4 +70,4 @@ Here are the key plugins used in this configuration:
 For a complete list, see lazy_setup.lua.
 License
 
-This configuration is available under the MIT License. Feel free to modify and share it!# neovim
+This configuration is available under the MIT License. Feel free to modify and share it!
