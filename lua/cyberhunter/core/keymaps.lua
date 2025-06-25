@@ -22,10 +22,4 @@ keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" })
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })
 
-local run_and_test = require("cyberhunter.core.run_and_test")
-keymap.set(
-    "n",
-    "<leader>;",
-    run_and_test.run_and_test,
-    { noremap = true, silent = true, desc = "Compile and run C++ code" }
-)
+
